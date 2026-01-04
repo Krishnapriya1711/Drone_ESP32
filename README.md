@@ -4,7 +4,7 @@ The final code is given in final.ino
 
 Connect the ESP32 and the laptop/desktop to the same hotspot/WiFi. DON'T connect to any public/college connection, it won't work.
 To host the webpage: 
-1. Include Necessary Libraries: In your Arduino sketch, you'll need the WiFi.h and WebServer.h (or the more efficient ESPAsyncWebServer.h) libraries.
+1. Include Necessary Libraries: In your Arduino sketch, you'll need the WiFi.h and WebServer.h libraries.
 2. Define Network Credentials: Specify your local Wi-Fi network's SSID and password in your code.
 3. Write the Code: The code will connect to your Wi-Fi network in setup(), obtain an IP address, and start the web server. In loop(), it will handle client requests and serve the HTML content, which can be embedded directly in the Arduino sketch as a string or stored in the ESP32's filesystem (SPIFFS).
 4. Upload and Access: Connect the ESP32 to your computer and upload the code.
